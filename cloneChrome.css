@@ -1,0 +1,62 @@
+@import 'reset.css';
+body{
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+#container{
+    padding-top:1rem;
+    background-color: rgba(66, 64, 64, 0.300);
+}
+
+.clockH, .nameForm, .todoForm, .helloNameH, .todoList{
+    margin:2rem;
+    text-align: center;
+}
+.nameForm input, .todoForm input{
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+    outline:0;
+    text-align: center;
+    color:white;
+}
+.nameForm input::placeholder, 
+.todoForm input::placeholder{
+    text-align: center;
+    color:white;
+    text-decoration: underline;    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul button{
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+ul li{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left:4rem;
+}
+.fsize-5{
+    font-size: 5rem;
+}
+.fsize-3{
+    font-size: 3rem;
+}
+.fsize-2{
+    font-size: 2rem;
+}
+.dis-non{
+    display:none;
+}
+.show{
+    display:block;
+}
